@@ -1,24 +1,23 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Cat finder 
 
-* System dependencies
+Users 
+    email
+    default
+    first name
+    last name
+    role
 
-* Configuration
+ has many cats
 
-* Database creation
+ Cats
+  nombre
+  color
+  avatar
+  breed
+  age
+  user_id fk
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+belongs_to user 
